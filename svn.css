@@ -1,0 +1,107 @@
+/* Svn grid v1.0 */
+.svn-radius {
+  border-radius: 9px;
+}
+
+.svn-bold-text {
+  font-weight: bold;
+}
+
+.svn-icon {
+  height: 35px;
+}
+
+.svn-icon-s {
+  height: 25px;
+}
+
+.svn-color-white {
+  color: #fff;
+}
+
+.svn-m-top {
+  margin-top: 5px !important;
+}
+
+.svn-p {
+  padding: 10px !important;
+}
+
+.svn-text-center {
+  text-align: center;
+}
+
+.svn-img-res {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.svn-container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1560px;
+  box-sizing: border-box;
+}
+
+.svn-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.svn-col {
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+/* Column widths for large screens (desktops) */
+.svn-col-lg-1 { flex: 0 0 8.33333%; max-width: 8.33333%; }
+.svn-col-lg-2 { flex: 0 0 16.66667%; max-width: 16.66667%; }
+.svn-col-lg-3 { flex: 0 0 25%; max-width: 25%; }
+.svn-col-lg-4 { flex: 0 0 33.33333%; max-width: 33.33333%; }
+.svn-col-lg-5 { flex: 0 0 41.66667%; max-width: 41.66667%; }
+.svn-col-lg-6 { flex: 0 0 50%; max-width: 50%; }
+.svn-col-lg-7 { flex: 0 0 58.33333%; max-width: 58.33333%; }
+.svn-col-lg-8 { flex: 0 0 66.66667%; max-width: 66.66667%; }
+.svn-col-lg-9 { flex: 0 0 75%; max-width: 75%; }
+.svn-col-lg-10 { flex: 0 0 83.33333%; max-width: 83.33333%; }
+.svn-col-lg-11 { flex: 0 0 91.66667%; max-width: 91.66667%; }
+.svn-col-lg-12 { flex: 0 0 100%; max-width: 100%; }
+
+/* Column widths for medium screens (tablets) */
+@media (max-width: 991px) {
+  .svn-col-md-1, .svn-col-md-2, .svn-col-md-3, .svn-col-md-4,
+  .svn-col-md-5, .svn-col-md-6, .svn-col-md-7, .svn-col-md-8,
+  .svn-col-md-9, .svn-col-md-10, .svn-col-md-11, .svn-col-md-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .svn-notablet {
+    display: none;
+  }
+}
+
+/* Column widths for small screens (phones) */
+@media (max-width: 767px) {
+  .svn-col-sm-1, .svn-col-sm-2, .svn-col-sm-3, .svn-col-sm-4,
+  .svn-col-sm-5, .svn-col-sm-6, .svn-col-sm-7, .svn-col-sm-8,
+  .svn-col-sm-9, .svn-col-sm-10, .svn-col-sm-11, .svn-col-sm-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .svn-nomobile {
+    display: none;
+  }
+}
+
+/* Button animation */
+.svn-btn {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.svn-btn:hover {
+  transform: scale(1.1);
+}
