@@ -75,8 +75,8 @@
   .svn-col-md-1, .svn-col-md-2, .svn-col-md-3, .svn-col-md-4,
   .svn-col-md-5, .svn-col-md-6, .svn-col-md-7, .svn-col-md-8,
   .svn-col-md-9, .svn-col-md-10, .svn-col-md-11, .svn-col-md-12 {
-    flex-basis: 100%;
-    max-width: 100%;
+    flex-basis: 50%;
+    max-width: 50%;
   }
   .svn-notablet {
     display: none;
