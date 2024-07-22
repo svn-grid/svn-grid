@@ -1,4 +1,4 @@
-/* Svn grid v1.0 */
+/* Svn grid v1.2 */
 .svn-radius {
   border-radius: 9px;
 }
@@ -72,12 +72,18 @@
 
 /* Column widths for medium screens (tablets) */
 @media (max-width: 991px) {
-  .svn-col-md-1, .svn-col-md-2, .svn-col-md-3, .svn-col-md-4,
-  .svn-col-md-5, .svn-col-md-6, .svn-col-md-7, .svn-col-md-8,
-  .svn-col-md-9, .svn-col-md-10, .svn-col-md-11, .svn-col-md-12 {
-    flex-basis: 50%;
-    max-width: 50%;
-  }
+  .svn-col-md-1 { flex: 0 0 8.33333%; max-width: 8.33333%; }
+  .svn-col-md-2 { flex: 0 0 16.66667%; max-width: 16.66667%; }
+  .svn-col-md-3 { flex: 0 0 25%; max-width: 25%; }
+  .svn-col-md-4 { flex: 0 0 33.33333%; max-width: 33.33333%; }
+  .svn-col-md-5 { flex: 0 0 41.66667%; max-width: 41.66667%; }
+  .svn-col-md-6 { flex: 0 0 50%; max-width: 50%; }
+  .svn-col-md-7 { flex: 0 0 58.33333%; max-width: 58.33333%; }
+  .svn-col-md-8 { flex: 0 0 66.66667%; max-width: 66.66667%; }
+  .svn-col-md-9 { flex: 0 0 75%; max-width: 75%; }
+  .svn-col-md-10 { flex: 0 0 83.33333%; max-width: 83.33333%; }
+  .svn-col-md-11 { flex: 0 0 91.66667%; max-width: 91.66667%; }
+  .svn-col-md-12 { flex: 0 0 100%; max-width: 100%; }
   .svn-notablet {
     display: none;
   }
@@ -85,12 +91,18 @@
 
 /* Column widths for small screens (phones) */
 @media (max-width: 767px) {
-  .svn-col-sm-1, .svn-col-sm-2, .svn-col-sm-3, .svn-col-sm-4,
-  .svn-col-sm-5, .svn-col-sm-6, .svn-col-sm-7, .svn-col-sm-8,
-  .svn-col-sm-9, .svn-col-sm-10, .svn-col-sm-11, .svn-col-sm-12 {
-    flex-basis: 100%;
-    max-width: 100%;
-  }
+  .svn-col-sm-1 { flex: 0 0 8.33333%; max-width: 8.33333%; }
+  .svn-col-sm-2 { flex: 0 0 16.66667%; max-width: 16.66667%; }
+  .svn-col-sm-3 { flex: 0 0 25%; max-width: 25%; }
+  .svn-col-sm-4 { flex: 0 0 33.33333%; max-width: 33.33333%; }
+  .svn-col-sm-5 { flex: 0 0 41.66667%; max-width: 41.66667%; }
+  .svn-col-sm-6 { flex: 0 0 50%; max-width: 50%; }
+  .svn-col-sm-7 { flex: 0 0 58.33333%; max-width: 58.33333%; }
+  .svn-col-sm-8 { flex: 0 0 66.66667%; max-width: 66.66667%; }
+  .svn-col-sm-9 { flex: 0 0 75%; max-width: 75%; }
+  .svn-col-sm-10 { flex: 0 0 83.33333%; max-width: 83.33333%; }
+  .svn-col-sm-11 { flex: 0 0 91.66667%; max-width: 91.66667%; }
+  .svn-col-sm-12 { flex: 0 0 100%; max-width: 100%; }
   .svn-nomobile {
     display: none;
   }
